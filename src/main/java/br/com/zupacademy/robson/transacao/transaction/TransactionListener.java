@@ -6,7 +6,7 @@ import br.com.zupacademy.robson.transacao.card.Card;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import br.com.zupacademy.robson.transacao.card.CardRepository;
-import br.com.zupacademy.transacao.robson.utils.TransactionExecutor;
+import br.com.zupacademy.robson.transacao.utils.TransactionExecutor;
 
 @Component
 public class TransactionListener {
